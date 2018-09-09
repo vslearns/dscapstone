@@ -1,0 +1,17 @@
+@import url('//fonts.googleapis.com/css?family=Raleway|Itim');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+div {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+
+h2, h3 {
+  font-family: 'Itim', cursive;
+}

@@ -30,15 +30,12 @@ shinyServer(function(input, output) {
     
     words <- scan(text = input$ptext, what = "", quiet = T)
     if (length(words) == 1) {
-      pred <- pred.two(words[1], n = 3)[[3]]
-      return(paste(pred[1], pred[2], pred[3], sep = ", "))
+      return(pred.two(words[1], n = 1)[[3]])
     } else if (length(words) == 2) {
-      pred <- pred.tth(words[1], words[2], n = 3)[[1]]
-      return(paste(pred[1], pred[2], pred[3], sep = ", "))
+      return(pred.tth(words[1], words[2], n = 1)[[1]])
     } else {
       n <- length(words)
-      pred <- pred.ttf(words[n - 2], words[n - 1], words[n], n = 3)[[1]]
-      return(paste(pred[1], pred[2], pred[3], sep = ", "))
+      return(pred.ttf(words[n - 2], words[n - 1], words[n], n = 1)[[1]])
     }
   })
   

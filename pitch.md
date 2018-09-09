@@ -20,7 +20,7 @@ The way typist works is as follows:
 - A predictive text model was created and smoothed (using Kneser-Ney smoothing) beforehand
 - The typist server has access to three n-gram models, each with a different n
 - A user inputs a string of preceding words of indefinite length, of which the last three are used
-- typist searches each n-gram model for a prediction, and returns the three most probable predictions, similarly to a predictive mobile keyboard
+- typist searches each n-gram model for a prediction, and returns the most probable prediction, similarly to a predictive mobile keyboard
 
 Reasons to use it
 ========================================================

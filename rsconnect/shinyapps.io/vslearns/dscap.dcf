@@ -5,9 +5,9 @@ account: vslearns
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 430560
-bundleId: 1577039
+bundleId: 1577060
 url: https://vslearns.shinyapps.io/dscap/
-when: 1536508612.65367
+when: 1536510216.14237
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: pitch.html|pitch.md|pitch.Rpres|pitch-figure/unnamed-chunk-1-1.png|pitch-figure/unnamed-chunk-2-1.png
+ignoredFiles: pitch-rpubs.html|pitch.html|pitch.md|pitch.Rpres

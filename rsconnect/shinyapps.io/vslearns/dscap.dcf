@@ -1,0 +1,13 @@
+name: dscap
+title: dscap
+username:
+account: vslearns
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 430560
+bundleId: 1577039
+url: https://vslearns.shinyapps.io/dscap/
+when: 1536508612.65367
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: pitch.html|pitch.md|pitch.Rpres|pitch-figure/unnamed-chunk-1-1.png|pitch-figure/unnamed-chunk-2-1.png
